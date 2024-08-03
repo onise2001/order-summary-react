@@ -1,0 +1,95 @@
+.pricing-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f9ff;
+  border-radius: 11px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+.plan {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.plan-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+span {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #1f2e55;
+}
+
+.price {
+  font-weight: 500;
+  color: #717fa6;
+}
+
+a {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #382ae1;
+}
+
+a:active,
+a:hover {
+  color: #766cf1;
+  cursor: pointer;
+}
+.payment-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.pay-button {
+  all: unset;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
+  width: 100%;
+  border-radius: 11px;
+  box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);
+  background-color: #382ae1;
+}
+
+.pay-button:hover,
+.pay-button:active {
+  box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);
+  background-color: #766cf1;
+  cursor: pointer;
+}
+
+.cancel-button {
+  all: unset;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #717fa6;
+  text-align: center;
+}
+.cancel-button:hover,
+.cancel-button:active {
+  cursor: pointer;
+  color: #1f2e55;
+}
+
+@media (min-width: 1440) {
+  .pricing-wrapper {
+    padding: 2.5rem 2.4rem;
+  }
+  span {
+    font-size: 1.6rem;
+  }
+  a {
+    font-size: 1.4rem;
+  }
+}

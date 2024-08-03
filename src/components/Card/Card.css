@@ -1,0 +1,24 @@
+.card {
+  border-radius: 20px;
+  box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.15);
+  background-color: #fff;
+  max-width: 327px;
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 32px;
+}
+
+.card-img {
+  max-width: 100%;
+}
+
+@media (min-width: 1440px) {
+  .card {
+    max-width: 450px;
+  }
+  .card-body {
+    padding: 4.5rem 4.8rem 4.8rem;
+  }
+}
